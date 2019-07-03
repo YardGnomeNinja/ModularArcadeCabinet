@@ -1,0 +1,972 @@
+----------------------------------------------------------------------------------------------------------------------
+Rom sets      |   Emulator                        |	  Pi Rom Folder (all can go in 'arcade' or the folder listed below)
+----------------------------------------------------------------------------------------------------------------------
+0.37b5 			- mame4all-pi / lr-mame2000			- mame-mame4all / mame-libretro (respectively)
+0.78   			- lr-mame2003						- mame-libretro
+0.78 to 0.188	- lr-mame2003-plus					- mame-libretro
+0.94			- AdvanceMAME 0.94					- mame-advmame
+0.106			- AdvanceMAME 1.4 / AdvanceMAME 3	- mame-advmame
+0.139			- lr-mame2010						- mame-libretro
+0.160			- lr-mame2015						- mame-libretro
+0.174			- lr-mame2016						- mame-libretro
+
+---------------------
+Samples folder
+---------------------
+/home/pi/RetroPie/BIOS/mame2003/samples/
+
+---------------------
+Pi Compatibility List
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+	SET					| Pi Emulator	| Compatibility List
+	---------------------------------------------------------------------------------------------------------------------------------------------------
+	0.37b5				- mame4all-pi	- https://docs.google.com/spreadsheets/d/1SHspjyHavY9-PKbO2swDr52BS2Wl_mB_Vjx2Z1SXiD8/edit#gid=828747670
+	0.78				- lr-mame2003	- https://docs.google.com/spreadsheets/d/1LP1MELCvcxu7TfiowF_0ZuvRVEMqlfQyTVetnOJvuJc/edit#gid=1744967714
+	FB Alpha 0.2.96.71	- PiFBA 		- https://docs.google.com/spreadsheets/d/1OZioLrz16ptaNbjQUDP5hhVzQDTOTn9Nz46Hbj3-06k/edit#gid=906957951
+	FB Alpha 0.2.97.42	- lr-fbalpha	- https://docs.google.com/spreadsheets/d/1OZioLrz16ptaNbjQUDP5hhVzQDTOTn9Nz46Hbj3-06k/edit#gid=906957951
+	0.171				- SEE LIST ->	- https://docs.google.com/spreadsheets/d/1antILt7D12EWOFzyJwTfB86NceghMJKXG7CdYumuHec/edit#gid=0
+
+											-------------
+											|Legend		|	NOTE: Control sets are per player (unless noted)
+											|-----------|--------------------
+											|	(x)wy	|	(x)-way stick
+											|	2lr		|	left-right stick
+											|	anlg	|	analog joystick (https://www.ultimarc.com/ultrastik_info.html)
+											|	(x)opt	|	(x)-position optical joystick
+											|	/		|	"including" ex. anlg/2bt (analog joystick with 2 buttons on the stick)
+											|	(x)bt	|	(x) button(s)
+											|	270		|	270 degree wheel
+											|	360		|	360 degree wheel
+											|	(x)ped	|	(x) pedal(s)
+											|	HL		|	Hi/Lo shifter
+											|	HLwBt	|	Hi/Lo shifter with button
+											|	(x)pos	|	(x) position shifter
+											|	trk		|	trackball
+											|	optsp  	|	optical spinner (no push or pull required)
+											|	optppsp	|	optical spinner (both push and pull required)
+											|	rot		|	rotary (see rotary instructions below)
+											|	rotjoy	|	circular rotating joystick (720 only?)
+											|	num		|	number pad
+											|	thrt	|	throttle (analog?)
+-------------------------------------------------------------------------------
+Games                              			| CONTROLS		| HAVE 	| SET 	| EMULATOR	| FILES
+-------------------------------------------------------------------------------
+'88 Games							(2p)	|3bt			|		|		|			|
+'99 The Last War							|8wy,2bt		|		|		|			|
+10 Yard Fight								|8wy,2bt		|	y	| 0.78	| 			| yard, vsyard2, vsyard
+1000 Miglia: Great 1000 Miglia Rally		|270,2ped		|		|		|			|
+1941								(2p)	|8wy,2bt		|	y 	| 0.78	| 			| 1941j, 1941
+1942                               			|8wy,2bt		|   y  	| 0.78 	| 			| 1942, 1942a, 1942b
+1943								(2p)	|8wy,2bt		|   y	| 0.78	| 			| 1943j, 1943, 1943kai
+1944								(2p)	|8wy,2bt		|	y	| 0.78	| 			| 1944, 1944j
+19XX								(2p)	|8wy,2bt		|		| 		| 			| 
+2 on 2 Open Ice Challenge			(4p)	|8wy,3bt		|		| 		|			| 
+2020 Super Baseball							|8wy,4bt		|		|		|			|
+64th Street   						(2p)	|8wy,2bt		|		|		|			|
+720											|rotjoy,2bt		|	y	| 0.78	| 			| 720r1, 720r2, 720r3, 720
+APB											|360,2bt,1ped	|	y	| 0.78	| 			| apb, apb1, apb2, apb3, apb4, apb5, apb6
+Acrobatic Dog-Fight							|?				|		|		|			|
+Aero Fighters						(2p)	|8wy,2bt		|		|		|			|
+Aero Fighters 2						(2p)	|8wy,2bt		|		|		|			|
+Aero Fighters 3						(2p)	|8wy,2bt		|		|		|			|
+Aero Fighters Special				(2p?)	|8wy?,2bt?		|		|		|			|
+After Burner								|anlg/2bt,thrt	|	y	| 0.78	| 			| aburner
+After Burner II								|anlg/2bt,thrt	|	y	| 0.78	| 			| aburner2
+Age Of Heroes   					(2/4p)	|8wy,2bt		|		|		|			|
+Air Buster							(2p)	|8wy,1bt		|		|		|			|
+Air Gallet							(2p)	|8wy,2bt?		|		|		|			|
+Airwolf								(2p)	|8wy,2bt		|	y	| 0.78	| 			| airwolf
+Ajax										|8wy,3bt		|		|		|			|
+Akkanbeder							(2p)	|8wy,2bt?		|		|		|			|
+Akuma-Jou Dracula							|8wy,2bt		|		|		|			|
+Ales No Tsubasa / Legendary Wings	(2p)	|8wy,2bt		|		|		|			|
+Alien Storm <broken on lr-mame2003>	(3p)	|8wy,3bt		|		|		|			|
+Alien Syndrome						(2p)	|8wy,1bt		|		|		|			|
+Alien vs Predator					(3p)	|8wy,3bt		|		|		|			|
+Aliens								(2p)	|8wy,2bt		|		|		|			|
+Alligator Hunt aka Aligatun			(2p)	|8wy or anlg,2bt|		|		|			|
+Alpha Mission (SNK)							|8wy,3bt		|		|		|			|
+Alpha Mission II					(2p)	|8wy,4bt		|		|		|			|
+Alpha 1 aka Alphaona						|trk,2bt		|		|		|			|
+Alpine Ski									|8wy,1bt		|		|		|			|
+Altered Beast						(2p)	|8wy,3bt		|   	|		|			| 
+American Horseshoes 						|trk			|		|		|			|
+Andro Dunos							(2p)	|8wy,2bt		|		|		|			|
+Anteater									|4wy,1bt		|		|		|			|
+Aqua Rush									|?				|		|		|			|
+Arabian Magic aka Arabiamj/Arabiamu	(4p)	|8wy,3bt		|		|		|			|
+Arabian										|8wy,1bt		|	y	| 0.78	| 			| arabian
+Arabian Fight   					(4p)	|8wy,2bt		|		|		|			|
+Arch Rivals							(2p)	|anlg,2bt		|   y	| 0.78	|advmame0.94| archrivl
+Area 51								(2p)	|light-gun		|		|		|			|
+Arkanoid									|optsp,1bt		|   y	| 0.78	| 			| arknoiuo, arknoidu, arkanoid
+Arkanoid Revenge of Doh						|optsp,1bt		|	y	| 0.78	| 			| arknid2j, arknoid2
+Arkanoid Returns							|2lr,1bt		|		| 		| 			|
+Armed Police Batrider				(2p)	|8wy,2bt		|		|		|			|
+Armored Warriors   					(3p)	|8wy,3bt		|		|		|			|
+Arnold Palmer Tournament Golf		(2p)	|8wy,3bt?		|		|		|			|
+Art of Fighting						(2p)	|8wy,4bt		|		|		|			|
+Art of Fighting 2					(2p)	|8wy,3bt		|		|		|			|
+Art of Fighting 3					(2p)	|8wy,4bt		|		|		|			|
+Asterix								(2p)	|8wy,2bt		|		|		|			|
+Asteroids									|2bt,3bt		|	y	| 0.78	| 			| asteroib
+Asteroids Deluxe							|2bt,3bt		|	y	| 0.78	| 			| astdelu1, astdelux
+Astro Blaster								|2bt,2bt		|		|		|			|
+Asura Buster - Eternal Warriors				|?				|		|		|			|
+Asylum								(3p)	|8wy,2bt		|		|		|			|
+Athena										|8wy,2bt		|	y	| 0.78	| 			| athena
+Avengers   							(2p)	|8wy,2bt		|		|		|			|
+Avenging Spirit								|8wy,2bt		|		| 		| 			| 
+Azumanga Daioh Puzzle				(2p)	|8wy,3bt		|		|		|			|
+B. Rap Boys							(3p)	|8wy,2bt		|		|		|			|
+Back Street Soccer					(2p)	|?				|		|		|			|
+Bad Dudes									|?				|		|		|			|
+Bad Dudes Vs Dragonninja   			(2p)	|8wy,2bt		|		|		|			|
+Bagman										|4wy,1bt		|	y	| 0.78	| 			| bagman, bagmanmc, bagmans, bagmans2
+Baku Baku Animal					(2p)	|?				|		|		|			|
+Bang Bang Ball						(2p)	|8wy,1bt		|		|		|			|
+Bang Bead							(2p)	|?				|		|		|			|
+Bank Panic									|2lr,3bt		|	y	| 0.78	| 			| bankp
+Baseball Stars 2					(2p)	|8wy,4bt		|	y	| 0.78	| 			| bstars2
+Baseball Stars Professional			(2p)	|8wy,4bt		|	y	| 0.78	| 			| bstars
+Batman										|8wy,2bt		|	y	| 0.78	| 			| batman
+Batman Forever						(2p)	|8wy,3bt		|	y	| 0.78	| 			| batmanfr
+Batsugun Special Version			(2p)	|8wy,2bt		|		|		|			|
+Battle Arena Toshinden 2			(2p)	|8wy,6bt		|		|		|			|
+Battle Bakraid: Unlimited Version	(2p)	|8wy,3bt		|		|		|			|
+Battle Chopper								|?				|		|		|			|
+Battle Circuit						(4p)	|8wy,2bt		|		|		|			|
+Battle Fantasia								|?				|		|		|			|
+Battle Flip Shot							|?				|		|		|			|
+Battle Garegga						(2p)	|8wy,3bt		|		|		|			|
+Battle Rangers						(2p)	|8wy,3bt		|		|		|			|
+Battletoads							(3p)	|8wy,2bt		|	y	| 0.78	| 			| btoads
+Bay Route							(2p)	|8wy,2bt		|		|		|			|
+Bells & Whistles					(2p)	|8wy,2bt		|		|		|			|
+Berzerk										|9opt,1bt		|	y	| 0.78	| 			| berzerk, berzerk1
+Big Bang							(2p)	|8wy,2bt		|		|		|			|
+Big Fight   								|?				|		|		|			|
+Biomechanical Toy							|8wy,3bt		|		|		|			|
+Bionic Commando								|8wy,2bt		|	y	| 0.78	| 			| bionicc, bionicc2
+Black Heart							(2p)	|8wy,2bt		|		|		|			|
+Blade Master   						(2p)	|8wy,2bt		|		|		|			|
+Blades of Steel 					(2p)	|2trk, 2x3bt	|	y	| 0.78	| 			| bladestl, bladstle
+Blazeon								(2p)	|8wy,2bt		|		|		|			|
+Blazing Star						(2p)	|8wy,2bt		|		|		|			|
+Block Hole							(2p)	|2lr,1bt		|		|		|			|
+Block Out									|?				|		|		|			|
+Blood Bros.							(2p)	|8wy,3bt		|		|		|			|
+Blood Warrior						(2p)	|8wy,4bt		|		|		|			|
+Bloody Roar									|?				|		|		|			|
+Bloody Roar 2								|?				|		|		|			|
+Bloody Roar 3						(2p)	|8wy,3bt		|		|		|			|
+Bloody Wolf							(2p)	|8wy,3bt		|		|		|			|
+Bomb Jack									|8wy,1bt		|	y	| 0.78	| 			| bombjack
+Bomb Jack Twin								|8wy,1bt		|		| 		| 			|
+Bonanza Bros.								|?				|	y	| 0.78	| 			| bnzabros
+Bonk's Adventure					(2p)	|8wy,2bt		|	y	| 0.78	| 			| bonzeadu, bonzeadv
+Boogie Wings The Great Ragtime Show	(2p)	|8wy,2bt		|		|		|			|
+Border Down									|?				|		|		|			|
+Bosconian									|8wy,1bt		|		|		|			|
+Brave Blade									|?				|		|		|			|
+Breakers Revenge							|?				|		|		|			|
+Bubble Bobble						(2p)	|2lr,2bt		|		|		|			| 
+Bubble Bobble 2								|?				|		|		|			| 
+Bubble Memories ... Bubble Bobble III  (2p)	|8wy,2bt		|		|		|			|
+Bubbles										|8wy			|		|		|			|
+Buck Rogers (Sample Files Required)			|8wy/1bt,2bt	|		|		|			|
+Bucky O'Hare						(4p)	|8wy,3bt		|		|		|			|
+Bump 'n Jump								|8wy,1bt		|	y	| 0.78	|			| bnj
+BurgerTime									|4wy,1bt		|	y	| 0.78	|			| btime, btime2, btimem
+Burning Fight   					(2p)	|8wy,3bt		|		|		|			|
+Cabal 								(2p)	|trk,2bt		|		|		|			| 
+Cadillacs and Dinosaurs				(3p)	|8wy,2bt		|	y	| 0.78	|			| dinou, dinoj
+Caliber 50 							(2p)	|8wy rot,2bt	|		|		|			|
+Capcom Baseball								|?				|		|		|			|
+Capcom Sports Club							|?				|		|		|			|
+Capcom Vs SNK: Millennium Fight 2000 PRO(2p)|8wy,4bt		|		|		|			|
+Capcom Vs SNK 2 Millionaire Fighting2001(2p)|8wy,6bt		|		|		|			|
+Captain America and the Avengers			|				|	y	| 0.78	|			| captaven, captavnj, captavuu, captavnu
+Captain Commando							|				|		|		|			|
+Carket Ball									|				|		|		|			|
+Carnival									|				|		|		|			|
+Carrier Air Wing							|				|		|		|			|
+Caveman Ninja								|				|		|		|			|
+Centipede									|trk, 1bt		|	y	| 0.78	|			| centipd2
+Championship Sprint 				(2p)	|360,2ped		|		|		|			|
+Chaos Field									|				|		|		|			|
+Chase HQ									|360,HLwBt,1ped	|	y	| 0.78	|			| chasehqj, chasehq
+Chicago 1929								|				|		|		|			|
+Chicken Shift								|				|		|		|			|
+Choplifter									|				|		|		|			| 
+Chuka Taisen								|				|		|		|			|
+Circus Charlie								|				|	y	| 0.78	|			| circusc, circusce, circuscc, circusc2
+Clash Road									|				|		|		|			|
+Cleopatra Fortune Plus						|				|		|		|			|
+Cliff Hanger								|				|		|		|daphne-emu	| 
+Cliffhanger - Edward Randy   				|				|		|		|			|
+Cloak & Dagger								|				|		|		|			|
+Cobra Command								|				|		|		|			|
+Columns										|				|	y	| 0.78	|			| columnsj, columns
+Combatribes   								|				|		|		|			|
+Commando									|				|	y	| 0.78	|			| commsega, commandu, commando
+Congo Bongo									|				|	y	| 0.78	|			| congo
+Contra										|				|	y	| 0.78	|			| contraj, contra
+Cool Boarders								|				|		|		|			|
+Coors Light Bowling							|trk,2bt		|		|		|			|
+Cosmo Gang The Video						|				|		|		|			|
+Cotton										|				|		|		|			|
+Cotton 2									|				|		|		|			|
+Cotton Boomerang							|				|		|		|			|
+Crack Down									|				|		|		|			|
+Crazy Climber								|				|	y	| 0.78	|			| cclimbrj, cclimber
+Crazy Climber 2								|				|	y	| 0.78	|			| cclimbr2
+Crime City									|				|		|		|			|
+Crime Fighters   							|				|		|		|			|
+Cross Pang									|				|		|		|			|
+Cruisin										|				|		|		|			|
+Cruis’n Exotica								|270,4pos,2ped	|		|		|			|
+Cruis’n USA									|270,4pos,2ped	|		|		|			|
+Cruis’n World								|270,4pos,2ped	|		|		|			|
+Crystal Castles (trackball)					|				|	y	| 0.78	|			| ccastle2, ccastle3, ccastles
+Crystal Of Kings							|				|		|		|			|
+Cybattler									|				|		|		|			|
+Cyber-Lip									|				|		|		|			|
+Cyberball									|				|		|		|			|
+Cyberbots - Full Metal Madness				|				|		|		|			|
+Cyvern										|				|		|		|			|
+Daemon Bride								|				|		|		|			|
+Daraku Tenshi - The Fallen Angels			|				|		|		|			|
+Darius										|				|		|		|			|
+Darius Burst EX Another Chronicle			|				|		|		|			|
+Darius Gaiden: Silver Hawk					|				|		|		|			|
+Darius II									|				|		|		|			|
+Darkstalkers								|				|		|		|			|
+Dead Connection								|				|	y	| 0.78	|			| deadconj, deadconx
+Dead Or Alive								|				|		|		|			|
+Dead Or Alive ++							|				|		|		|			|
+Dead Or Alive 2 Millenium					|				|		|		|			|
+Deathsmiles									|				|		|		|			|
+Defender									|				|	y	| 0.78	|			| defender
+Demolition Derby					(2p)	|360,HL			|		|		|			|
+Demon Front									|				|		|		|			|
+Demon's World								|				|		|		|			|
+Deniin Makai   								|				|		|		|			|
+Denjin Makai II								|				|		|		|			|
+Deroon Derodero								|				|		|		|			|
+Desert War									|				|		|		|			|
+Dharma Doujou								|				|		|		|			|
+Die Hard Arcade								|				|		|		|			| 
+Dig Dug										|				|	y	| 0.78	|			| digduga1, digdugat, digdug, digdugb
+Dig Dug II									|				|	y	| 0.78	|			| digdug2, digdug2o
+Dimahoo										|				|		|		|			|
+Dirty Pigskin Football / 621 AD				|				|		|		|			| 
+Discs of Tron								|8wy/2bt,optppsp|		|		|			| 
+Dodonpachi									|				|		|		|			|
+Dodonpachi Dai Ou Jou						|				|		|		|			|
+Dodonpachi II: Bee Storm					|				|		|		|			|
+Dogyuun										|				|		|		|			|
+Dolphin Blue								|				|		|		|			|
+Domino Man									|				|	y	|		| mame2010	| 
+Dommy										|				|		|		|			|
+Donkey Kong									|				|	y	| 0.78	|			| dkongjp, dkongjo, dkong, dkongo
+Donkey Kong 3								|				|	y	| 0.78	|			| dkong3j, dkong3
+Donkey Kong Junior							|				|	y	| 0.78	|			| dkongjr, dkongjrj
+Double Dragon								|				|	y	| 0.78	|			| ddragon, ddragonw
+Double Dragon 3								|				|	y	| 0.78	|			| ddragon3
+Double Dragon II							|				|	y	| 0.78	|			| ddragon2
+Double Dribble								|				|	y	| 0.78	|			| ddibble
+Dr Mario									|				|		|		|			|
+Dr Micro									|				|		|		|			|
+Dragon Blaze								|				|		|		|			|
+Dragon Breed								|				|		|		|			|
+Dragon Spirit								|				|		|		|			|
+Dragon's Lair								|				|		|		|daphne-emu	| http://www.daphne-emu.com/site3/index_hi.php
+Dragon's Lair II Time Warp					|				|		|		|daphne-emu	| http://www.daphne-emu.com/site3/index_hi.php
+Dungeons & Dragons - Shadows Over Mystara	|				|	y	| 0.78	|			| ddsom, ddsomjr1, ddsomj, ddsomu, ddsomur1?
+Dungeons & Dragons - Tower of Doom			|				|	y	| 0.78	|			| ddtoda?, ddtod, ddtodh, ddtodj, ddtodu?, ddtour1?
+Dynamyte Cop   								|				|		|		|			|
+Dynasty Wars								|				|		|		|			|
+E-Swat Cyber Police							|				|		|		|			|
+E.D.F.: Earth Defense Force					|				|		|		|			|
+Eco Fighters								|				|		|		|			|
+Ehrgeiz										|				|		|		|			|
+Eight Man   								|				|		|		|			|
+Elevator Action								|				|	y	| 0.78	|			| elevator
+Elevator Action Returns						|				|		|		|			|
+Emeraldia									|				|		|		|			|
+Escape From The Planet Of The Robot Monsters|				|		|		|			|
+Esp Ra.De.									|				|		|		|			|
+Espgaluda									|				|		|		|			|
+Espgaluda Ii								|				|		|		|			|
+Excite Bike									|				|		|		|			|
+Extreme Downhill							|				|		|		|			|
+Eyes										|				|		|		|			|
+Fantastic Journey							|				|		|		|			|
+Fantasy Zone								|				|	y	| 0.78	|			| fantzone, fantzono
+Fatal Fury									|				|		|		|			|
+Fatal Fury 2								|				|		|		|			|
+Fatal Fury 3								|				|		|		|			|
+Fever Sos									|				|		|		|			|
+Fighting Layer								|				|		|		|			|
+Fighting Vipers								|				|		|		|			|
+Fighting Vipers 2							|				|		|		|			|
+Final Fight									|				|	y	| 0.78	|			| ffightj, ffightj1, ffightu, ffight
+Final Star Force							|				|		|		|			|
+Fist Of The North Star						|				|		|		|			|
+Flame Gunner								|				|		|		|			|
+Flicky										|				|	y	| 0.78	|			| flicky, flickyo
+Flying Shark								|				|		|		|			|
+Food Fight									|				|	y	| 0.78	|			| foodfc, foodf2, foodf
+Football Champ								|				|		|		|			|
+Football Frenzy								|				|		|		|			|
+Frogger										|				|	y	| 0.78	|			| frogger, froggermc, frogseg1, frogseg2
+G Darius Ver.2								|				|		|		|			|
+Gaia Crusaders   							|				|		|		|			|
+Gaiapolis   								|				|		|		|			|
+Galaga										|				|	y	| 0.78	|			| galagads, galagamw, galaga
+Galaga '84									|				|	y	| 0.78	|			| galaga84
+Galaga '88									|				|	y	| 0.78	|			| galaga88, galaga88b
+Galaga 3									|				|	y	| 0.78	|			| galaga3a, galaga3m, galaga3
+Galaxian									|				|		|		|			|
+Galaxy Force 2								|				|		|		|			|
+Gang Busters								|				|		|		|			|
+Ganryu										|				|		|		|			|
+Garou: Mark Of The Wolf						|				|		|		|			|
+Gauntlet									|				|	y	| 0.78	|			| gauntlet, gauntr1?, gauntr2, gauntr4?, gauntr5?, gauntr7?, gauntr9?, gaun2pr3, gaunt2p
+Gauntlet Dark Legacy						|				|		|		|			| 
+Gauntlet II									|				|	y	| 0.78	|			| gaunt2, gaun22p1, gaunt22p
+Gauntlet Legends							|				|		|		|			| 
+Gemini Wing									|				|		|		|			|
+Ghostlop									|				|		|		|			|
+Ghosts & Goblins							|				|	y	| 0.78	|			| gngt, gng, gnga
+Ghouls & Ghosts								|				|	y	| 0.78	|			| ghoulsu?, ghouls
+Giga Wing									|				|		|		|			|
+Giga Wing 2									|				|		|		|			|
+Gigawing Generations						|				|		|		|			|
+Golden Axe									|				|	y	| 0.78	|			| goldnaxe
+Golden Axe - The Duel						|				|		|		|			|
+Golden Axe: The Revenge of Death Adder		|				|		| 		|			| 
+Golden Tee Golf 							|trk,2+bt		|		| 		|			| 
+Golden Tee Golf II 							|trk,2+bt		|	y	| 0.78	|			| gtg2, gtg2t
+Golden Tee 3D Golf 							|trk,2+bt		|		| 		|			| 
+Golden Tee Golf '97							|trk,2+bt		|		| 		|			| 
+Golden Tee Golf '98							|trk,2+bt		|		| 		|			| 
+Golden Tee '99 								|trk,2+bt		|		| 		|			| 
+Golden Tee 2K 								|trk,2+bt		|		| 		|			| 
+Gorf										|				|		|		|			|
+Gradius										|				|	y	| 0.78	|			| gradius
+Gradius 4: Fukkatsu							|				|		|		|			|
+Gradius II									|				|	y	| 0.78	|			| gradius2, grdius2a, grdius2b
+Gradius III									|				|	y	| 0.78	|			| gradius3, grdius3a, grdius3e
+Gratia Second Earth							|				|		|		|			|
+Green Beret									|				|		|		|			|
+Growl   									|				|		|		|			|
+Guardians   								|				|		|		|			|
+Guerrilla War						(2p)	|8wy rot,2bt	|		|		|			|
+Guilty Gear Xx Accent Core					|				|		|		|			|
+Gun Force									|				|		|		|			|
+Gun Force II								|				|		|		|			|
+Gun Frontier								|				|		|		|			|
+Gun Spike									|				|		|		|			|
+Gun.Smoke									|				|	y	| 0.78	|			| gunsmoka?, gunsmoku?, gunsmoke, gunsmokj
+Gunbird										|				|		|		|			|
+Gunbird 2									|				|		|		|			|
+Gundhara									|				|		|		|			|
+Gunforce									|				|		|		|			|
+Gunlock										|				|		|		|			|
+Guwange										|				|		|		|			|
+Gyruss										|				|		|		|			|
+Hard Drivin'								|270,5pos,3ped	|		|		|			| 
+Hat Trick									|				|		|		|			|
+Hatch Catch									|				|		|		|			|
+Heavy Barrel						(2p)	|8wy rot,2bt	|		|		|			|
+Heavy Metal Geomatrix						|				|		|		|			|
+Heavy Smash									|				|		|		|			|
+Hellfire									|				|		|		|			|
+Homura										|				|		|		|			|
+Hook   										|				|		|		|			|
+Hopping Mappy								|				|	y	| 0.78	|			| hopmappy
+Hyper Athlete								|				|		|		|			|
+Hyper Duel									|				|		|		|			|
+Ibara Kuro Black Label						|				|		|		|			|
+Ikari III - The Rescue				(2p)	|8wy rot,3bt	|		|		|			|
+Ikari Warriors						(2p)	|8wy rot,2bt	|		|		|			|
+Ikaruga										|				|		|		|			|
+Illvelo										|				|		|		|			|
+In The Hunt									|				|		|		|			|
+Indiana Jones and the Temple of Doom		|				|		|		|			| 
+Ironman Ivan Stewart's Super Off Road	(3p)|360,1ped		|	y	| 0.78	|			| offroad, offroadt?
+Jackal										|				|	y	| 0.78	|			| jackal
+Jingi Storm									|				|		|		|			|
+Jojo's Venture								|				|		|		|			|
+Journey										|				|		|		|			|
+Joust										|				|	y	| 0.78	|			| joust, joustwr
+Joust 2 Survival of the Fittest				|				|	y	| 0.78	|			| joust2
+Jr. Pac Man									|				|	y	| 0.78	|			| jrpacman
+Jumping Jack								|				|		|		|			|
+Jungle King	/ Jungle Hunt					|				|	y	| 0.78	|			| jungleh, junglkj2, junglek, junglhbr?
+Juno First									|				|		|		|			|
+Kangaroo									|				|	y	| 0.78	|			| kangaroo, kangaroa
+Karous										|				|		|		|			|
+Ketsui: Kizuna Jigoku Tachi					|				|		|		|			|
+Killer Instinct								|				|		|		|			| 
+Killer Instinct II							|				|		|		|			| 
+King Of Dragons								|				|		|		|			|
+King Of Fighters '96						|				|		|		|			|
+King Of Fighters '98 - The Slugfest			|				|		|		|			|
+King Of Fighters '98 - Ultimate Match Hero	|				|		|		|			|
+King Of Fighters 2000						|				|		|		|			|
+King Of Fighters XIII						|				|		|		|			|
+Kizuna Encounter							|				|		|		|			|
+Klax										|				|	y	| 0.78	|			| klaxd?, klaxj, klax, klax2, klax3
+Knights Of The Round						|				|	y	| 0.78	|			| knightsj, knightsu, knights
+Knights Of Valour							|				|		|		|			|
+Knights Of Valour 2   						|				|		|		|			|
+Knuckle Bash   								|				|		|		|			|
+Kof - Maximum Impact Regulation A			|				|		|		|			|
+Koutetsu Yousai Strahl						|				|		|		|			|
+Krull								(1p)	|2x8wy			|		|		|			|
+Kung Fu Master								|				|	y	| 0.78	|			| kungfud, kungfum
+Kuru Kuro Chameleon							|				|		|		|			|
+Lady Bug									|				|		|		|			|
+Land Maker									|				|		|		|			|
+Last Blade									|				|	y	| 0.78	|			| lastblad, lastblada
+Last Blade 2								|				|	y	| 0.78	|			| lastbld2
+Last Bronx									|				|		|		|			|
+Last Resort									|				|		|		|			|
+League Bowling								|				|		|		|			|
+Legend Of Heroes   							|				|		|		|			|
+Legend Of Silkroad							|				|		|		|			|
+Legendary Wings								|				|		|		|			|
+Lethal Enforcers					(2p)	|light-gun		|		|		|			|
+Lethal Enforcers 2					(2p)	|light-gun		|		|		|			|
+Lethal Thunder								|				|		|		|			|
+Life Force									|				|	y	| 0.78	|			| lifefrcj
+Light Bringer  								|				|		|		|			|
+Loco Motion									|				|		|		|			|
+Lode Runner									|				|	y	| 0.78	|			| ldrun, ldruna
+Lode Runner	- The Dig Fight					|				|	y	| 0.78	|			| loderdfa, loderndf
+Lode Runner	II								|				|	y	| 0.78	|			| ldrun2
+Lode Runner	III								|				|	y	| 0.78	|			| ldrun3jp, ldrun3
+Lode Runner	IV								|				|	y	| 0.78	|			| ldrun4
+Mace: The Dark Ages							|				|		|		|			|
+Mach Breakers Numan Athletics 2				|				|		|		|			|
+Macross Plus								|				|		|		|			|
+Mad Gear									|				|		|		|			|
+Magical Drop 2								|				|	y	| 0.78	|			| magdrop2
+Magical Drop 3								|				|	y	| 0.78	|			| magdrop3
+Magical Error Wo Sagase						|				|		|		|			|
+Mamoru-Kun Wa Norowarete Shimatta!			|				|		|		|			|
+Mappy										|				|	y	| 0.78	|			| mappy, mappyj
+Marble Madness								|trk			|	y	| 0.78	|			| marble, marble2, marble3, marble4
+Mario Bros.									|				|	y	| 0.78	|			| mario, mariojp
+Mars Matrix: Hyper Solid Shooting			|				|		|		|			|
+Martial Champion							|				|		|		|			|
+Martial Masters								|				|		|		|			|
+Marvel Super Heroes							|				|		|		|			|
+Marvel Super Heroes Vs Street Fighter		|				|		|		|			|
+Marvel vs Capcom							|				|	y	| 0.78	|			| mvsc, mvsca, mvsch, mvscj, mvscjr1
+Marvel vs Capcom 2							|				|		|		|			| 
+Matrimelee									|				|		|		|			|
+Mazinger Z									|				|		|		|			|
+Mega Man 2: The Power Fighters				|				|		|		|			|
+Mega Man The Power Battle					|				|		|		|			|
+Mercs										|				|		|		|			|
+Metal Black									|				|		|		|			|
+Metal Slug									|				|	y	| 0.78	|			| mslug
+Metal Slug 2								|				|	y	| 0.78	|			| mslug2
+Metal Slug 3								|				|	y	| 0.78	|			| mslug3, mslug3n
+Metal Slug 4								|				|		|		|			| 
+Metal Slug 5								|				|		|		|			| 
+Metal Slug 6								|				|		|		|			| 
+Metal Slug X								|				|	y	| 0.78	|			| mslugx
+Metamoqester								|				|		|		|			|
+Metamorphic Force   						|				|		|		|			|
+Michael Jackson's Moonwalker				|				|		|		|			| 
+Midnight Resistance					(2p)	|8wy rot,2bt	|		|		|			|
+Mighty Bomb Jack							|4wy,1bt		|		|		|
+Mikie										|				|	y	| 0.78	|			| mikie, mikiehs
+Mille Miglia 2: 1000 Miglia Rally			|270,2ped		|		|		|			|
+Millipede									|trackball,1bt	|	y	| 0.78	|			| milliped
+Missile Command								|trackball,3bt	|	y	| 0.78	|			| missile, missile2
+Mobile Suit Gundam Ex						|				|		|		|			|
+Moero! Justice Gakuen						|				|		|		|			|
+Money Puzzle Exchanger						|				|		|		|			|
+Moon Cresta									|				|		|		|			|
+Moon Patrol									|				|	y	| 0.78	|			| mpatrol, mpatrolw
+Mortal Kombat								|				|	y	| 0.78	|			| mk, mkla1, mkla2, mkla3, mkla4, mkr4
+Mortal Kombat 3								|				|	y	| 0.78	|			| mk3, mk3r10, mk3r20
+Mortal Kombat 4								|				|		|		|			| 
+Mortal Kombat II							|				|	y	| 0.78	|			| mk2r14, mk2r21, mk2, mk2r32
+Mosaic										|				|		|		|			|
+Motos										|				|		|		|			|
+Mouse Shooter Gogo							|				|		|		|			|
+Mouse Trap									|				|		|		|			|
+Mr. Do vs. Unicorns							|				|	y	| 0.78	|			| douni
+Mr. Do!										|				|	y	| 0.78	|			| mrdo, mrdofix, mrdot
+Mr. Do's Castle								|				|	y	| 0.78	|			| docastlo, docastle, docastl2
+Mr. Do's Wild Ride							|				|	y	| 0.78	|			| dowild
+Mr. Driller									|				|		|		|			|
+Ms. Pac Man									|				|	y	| 0.78	|			| mspacman
+Ms. Pac Man	Plus							|				|	y	| 0.78	|			| mspacpls
+Ms. Pacman Champion Edition					|				|	y	| 0.78	|			| mschamp
+Muchi Muchi Pork!							|				|		|		|			|
+Mushihime Sama								|				|		|		|			|
+Mushihime Sama Futari Ver 1.5				|				|		|		|			|
+Mutation Nation   							|				|		|		|			|
+Mystic Riders								|				|		|		|			|
+Mystic Warriors								|				|		|		|			|
+NARC										|				|	y	| 0.78	|			| narc, narc3
+NBA Hangtime								|				|		|		|			|
+NBA Jam										|				|	y	| 0.78	|			| nbajam, nbajamr2
+NBA Jam Tournament Edition					|				|	y	| 0.78	|			| nbajamte, nbajamt1, nbajamt2, nbajamt3
+NFL Blitz									|				|		|		|			| blitz, CHD
+NFL Blitz '99								|				|		|		|			| blitz99, CHD
+NFL Blitz 2000								|				|		|		|			| blitz2k, CHD
+NHL Open Ice								|				|	y	|		|			| 
+Nagano Winter Olympics '98					|				|		|		|			|
+Nam 1975									|				|		|		|			|
+Namco Classics Collection Vol. 1			|				|		|		|			|
+Nemo										|				|	y	| 0.78	|			| nemo, nemoj
+Neo Drift Out								|				|		|		|			|
+Neo Geo Battle Coliseum						|				|		|		|			|
+Neo Turf Masters							|				|		|		|			|
+Nibbler										|				|		|		|			|
+Night Slashers   							|				|		|		|			|
+Night Warriors: Darkstalker's Revenge		|				|		|		|			|
+Ninja Baseball Bat Man						|				|	y	| 0.78	| lr-fbalpha| nbbatman
+Ninja Commando								|				|		|		|			|
+Ninja Gaiden								|				|	y	| 0.78	|			| gaiden
+Ninja Kids									|				|		|		|			|
+Nostradamus									|				|		|		|			|
+Oh My God!									|				|		|		|			|
+Operation Wolf								|position-gun?	|		|		|			|
+Ordyne										|				|		|		|			|
+Oriental Legend   							|				|		|		|			|
+Out Zone									|				|		|		|			|
+Outfoxies									|				|		|		|			|
+Outrun										|270,HL,2ped	|	y	| 0.78	|			| outrun, outruna, outrunb
+Out Runners									|270,HL,2ped	|	y	| 0.78	|			| outrun, outruna, outrunb
+Overtop										|				|		|		|			|
+P-47 Aces									|				|		|		|			|
+P-47 The Phantom Fighter					|				|		|		|			|
+P.O.W. - Prisoners Of War   				|				|		|		|			|
+Pac & Pal									|				|	y	| 0.78	|			| pacnpal, pacnpal2
+Pac Land									|				|	y	| 0.78	|			| paclandm, pacland, pacland2, pacland3
+Pac Mania									|				|	y	| 0.78	|			| pacmania, pacmanij
+Pac-Man										|				|	y	| 0.78	|			| pacmanbl, pacmod, pacman
+Pac-Man	& Chomp Chomp						|				|	y	| 0.78	|			| pacnchmp
+Pac-Man Plus								|				|	y	| 0.78	|			| pacplus
+Pandora's Palace							|				|		|		|			|
+Paperboy									|270/1bt?,2ped?	|	y	| 0.78	|			| paperboy, paperbr1, paperbr2
+Parodius Da!								|				|		|		|			|
+Pebble Beach Golf							|				|		|		|			|
+Pengo										|				|		|		|			|
+Penguin-Kun Wars							|				|		|		|			|
+Pepper II									|				|		|		|			|
+Peter Pack Rat								|				|	y	| 0.78	|			| peterpak
+Phelios										|				|		|		|			|
+Phoenix										|				|	y	| 0.78	|			| phoenix, phoenixa, phoenixc, phoenix3, phoenixt
+Pig Out										|				|		|		|			|
+Pigskin 621 AD								|				|	y	|		|			| pigskin
+Pilot Kids									|				|		|		|			|
+Pink Sweets: Ibara Sorekara					|				|		|		|			|
+Pit Fall II Lost Caverns					|				|	y	| 0.78	|			| pitfall2, pitfallu
+Pit Fighter									|				|	y	| 0.78	|			| pitfighj, pitfigh3, pitfight
+Plasma Sword								|				|		|		|			|
+Pleasure Goal								|				|		|		|			|
+Plus Alpha									|				|		|		|			|
+Pocket Gal Deluxe							|				|		|		|			|
+Pole Position								|360,HL,2ped	|	y	| 0.78	|			| polepos, polepos1, poleposa
+Pole Position II							|360,HL,2ped	|	y	| 0.78	|			| polepos2, poleps2a
+Pooyan										|				|	y	| 0.78	|			| pooyan, pooyans
+Popeye										|				|	y	| 0.78	|			| popeye, popeyef
+Prehistoric Isle							|				|		|		|			|
+Pretty Soldier Sailor Moon					|				|		|		|			|
+Primal Rage									|				|	y	| 0.78	|			| primraga, primrage
+Primal Rage	2								|				|	y	| 0.78	|			| primrag2
+Progear										|				|		|		|			|
+Psycho Nics Oscar							|				|		|		|			|
+Psyvariar 2: The Will To Fabricate			|				|		|		|			|
+Pulirula									|				|		|		|			|
+Pulstar										|				|		|		|			|
+Punch Out!!									|				|	y	| 0.78	|			| punchout
+Punk Shot									|				|		|		|			|
+Pururun										|				|		|		|			|
+Puyo Puyo 2									|				|		|		|			|
+Puyo Puyo Fever								|				|		|		|			|
+Puzz Loop									|				|		|		|			|
+Puzz Loop 2									|				|		|		|			|
+Puzzle Bobble								|				|	y	| 0.78	|			| pbobble, pbobblen, pbobblena
+Puzzle Bobble 2								|				|	y	| 0.78	|			| pbobbl2j, pbobble2, pbobbl2n, pbobbl2x
+Puzzle Bobble 3								|				|	y	| 0.78	|			| pbobbl3j, pbobbl3u, pbobble3
+Puzzle Bobble 4								|				|	y	| 0.78	|			| pbobbl4j, pbobbl4u, pbobble4
+Puzzle De Pon								|				|		|		|			|
+Puzzle! Mushihime-Tama						|				|		|		|			|
+Puzzled - Joy Joy Kid						|				|		|		|			|
+Puzzli 2 Super								|				|		|		|			|
+Q*Bert										|				|	y	| 0.78	|			| qbert, qbertjp
+Q*Bert's Qubes								|				|	y	| 0.78	|			| qbertqub
+Qix											|				|	y	|		|			| qix, qixa, qixb
+Qix	II										|				|	y	|		|			| qix2
+R-Type										|				|	y	| 0.78	|			| rtypepj, rtype, rtypeu
+R-Type II									|				|	y	| 0.78	|			| rtype2, rtype2j
+R-Type Leo									|				|	y	| 0.78	|			| rtypelej, rtypeleo
+Race Drivin'								|270,4pos,3ped	|		|		|			| 
+Radiant Silvergun							|				|		|		|			|
+Radirgy										|				|		|		|			|
+Radirgy Noa									|				|		|		|			|
+Rage Of Dragons								|				|		|		|			|
+Raiden										|				|		|		|			|
+Raiden Fighters								|				|		|		|			|
+Raiden Fighters 2							|				|		|		|			|
+Raiden Fighters Jet							|				|		|		|			|
+Raiden II									|				|		|		|			|
+Raiden III									|				|		|		|			|
+Raiden IV									|				|		|		|			|
+Raiga Stratofighter							|				|		|		|			|
+Rainbow Islands ... Bubble Bobble 2			|2lr,2bt		|		|		|			|
+Rally X (Sound Samples May Be Required)		|				|		|		|			|
+Rambo III									|				|		|		|			|
+Rampage										|				|	y	| 0.78	|			| rampage
+Rampage World Tour							|				|	y	| 0.78	|			| rmpgwt11, rmpgwt
+Rampart								(3p)	|3xtrk,3x2bt	|	y	| 0.78	|			| rampart, rampt2p, rampartj
+Ray Storm									|				|		|		|			|
+Real Bout Fatal Fury 2						|				|		|		|			|
+Red Baron									|8wy/1bt		|		|		|			|
+Renegade									|				|	y	| 0.78	|			| renegade
+Return of the Jedi							|				|	y	| 0.78	|			| jedi
+Ridge Racer									|270,6pos,3ped	|		|		|			| 
+Ridge Racer 2								|270,6pos,3ped	|		|		|			| 
+Ring King (King Of Boxer)					|				|		|		|			|
+Ring Of Destruction: Slam Masters II		|				|		|		|			|
+Riot City   								|				|		|		|			|
+Risky Challenge								|				|		|		|			|
+Rival Schools								|				|		|		|			|
+Road Blasters								|360/2bt,1ped	|		|		|			|
+Road Runner									|				|	y	| 0.78	|			| roadrun1, roadrun2, roadrunn
+Robo Army   								|				|		|		|			|
+Robocop										|				|	y	| 0.78	|			| robocop, robocopj, robocpu0, robocopu, robocopw
+Robocop	2									|				|	y	| 0.78	|			| robocp2j, robocp2u, robocop2
+Robotron 2084 						(1p)	|2x8wy			|		|		|			|
+Roc'n rope									|				|	y	| 0.78	|			| rocnrope, rocnropk
+Rohga Armor Force							|				|		|		|			|
+Rollergames									|				|		|		|			|
+Rolling Thunder								|				|	y	| 0.78	|			| rthunder, rthundro
+Rolling Thunder 2							|				|	y	| 0.78	|			| rthun2, rthun2j
+Run And Gun									|				|		|		|			|
+Rush N Attack								|				|		|		|			| rushatck
+Rushing Heroes								|				|		|		|			|
+Rygar										|				|	y	| 0.78	|			| rygar, rygar2
+Ryu Jin										|				|		|		|			|
+Saint Dragon								|				|		|		|			|
+Salamander									|				|		|		|			|
+Salamander 2								|				|		|		|			|
+Samurai Aces								|				|		|		|			|
+Samurai Shodown								|				|		|		|			|
+Samurai Shodown II							|				|		|		|			|
+Samurai Shodown III							|				|		|		|			|
+Samurai Shodown III							|				|		|		|			|
+Samurai Shodown IV							|				|		|		|			|
+Samurai Shodown V Special					|				|		|		|			|
+Samurai Shodown VI Tenkaichi Kenkakuden		|				|		|		|			|
+Samurai Spirits Sen							|				|		|		|			|
+San Francisco Rush							|270,4pos,3ped	|		|		|			|
+San Francisco Rush 2049 					|270,4pos,3ped	|		|		|			|
+Sar - Search And Rescue (rotary)	(2p)	|8wy rot,2bt	|		|		|			|
+Sarge										|				|		|		|			|
+Satan's Hollow								|				|		|		|			|
+Saturday Night Slam Masters					|				|		|		|			|
+Scramble									|				|		|		|			|
+Scrambled Egg								|				|		|		|			|
+Secret Agent (Sly Spy)						|				|		|		|			|
+Sega Tetris									|				|		|		|			|
+SegaSonic The Hedgehog 				(2p)	|trk			|		|		|			|
+Sengoku										|				|	y	| 0.78	|			| sengoku, sengokh
+Sengoku 2									|				|	y	| 0.78	|			| sengoku2
+Sengoku 3									|				|		|		|			|
+Senkyu										|				|		|		|			|					| (Jumper Must Be Moved In Mame After Initial Update)
+Sexy Parodius								|				|		|		|			|
+Shadow Force   								|				|		|		|			|
+Shienaryu									|				|		|		|			|
+Shikigami No Shiro II						|				|		|		|			|
+Shikigami No Shiro III						|				|		|		|			|
+Shinobi										|				|		| 		|			| shinobi, shinobia, shinobib
+Shock Troopers								|				|	y	| 0.78	|			| shocktro, shocktra
+Shock Troopers 2: 2nd Squad					|				|	y	| 0.78	|			| shocktr2
+Shooting Love 2007							|				|		|		|			|
+Sidearms									|				|		|		|			|
+Silent Dragon								|				|		|		|			|
+Silkworm									|				|	y	| 0.78	|			| silkworm, silkwrm2
+Sinistar									|				|	y	| 0.78	|			| sinista2, sinistar
+Skull & Crossbones							|				|	y	| 0.78	|			| skullxb1, skullxb2, skullxb3, skullxb4, skullxbo
+Sky Kid										|				|	y	| 0.78	|			| skykid, skykido
+Sky Kid	Deluxe								|				|	y	| 0.78	|			| skykiddx, skykiddo
+Sky Shark									|				|	y	| 0.78	|			| skyshark
+Slap Shot									|				|		|		|			|
+Smash TV 							(2p)	|2x8wy			|	y	| 0.78	|			| smashtv4, smashtv5, smashtv6, smashtv
+Snk Vs Capcom: Svc Chaos					|				|		|		|			|
+Snow Bros									|				|	y	| 0.78	|			| snowbroa, snowbrob, snowbros, snowbroj
+Snow Bros 2									|				|	y	| 0.78	|			| snowbro2
+Soccer Brawl								|				|		|		|			|
+Sol Divide: The Sword Of Darkeness			|				|		|		|			|
+Sonic Championship							|				|		|		|			|
+Sorcer Striker								|				|		|		|			|
+Soukyugurentai: Terra Diver					|				|		|		|			|
+Soul Calibur								|				|		|		|			|
+Soul Calibur 2								|				|		|		|			| 
+Space Ace 									|				|		|		|daphne-emu	| http://www.daphne-emu.com/site3/index_hi.php
+Space Harrier								|				|		|		|			|
+Space Invaders								|				|	y	| 0.78	|			| invaders
+Space Invaders '95							|				|	y	| 0.78	|			| spcnv95u, spcinv95
+Space Invaders Deluxe						|				|	y	| 0.78	|			| invaddlx, spacedx
+Space Invaders II							|				|	y	| 0.78	|			| invad2ct, invadpt2
+Space Panic (Sample Files Required)			|				|		|		|			|
+Speed Spin									|				|		|		|			|
+Spelunker									|				|	y	| 0.78	|			| spelunker, spelnkrj
+Spelunker II								|				|	y	| 0.78	|			| spelunk2
+Spider-Man   								|				|		|		|			|
+Spikeout   									|				|		|		|			|
+Spikeout Final Edition   					|				|		|		|			|
+Splatter House								|				|	y	| 0.78	|			| splatter
+Spot										|				|		|		|			|
+Spy Hunter									|360/5bt,HL,1ped| 		|			| spyhunt
+Spy Hunter II								|360/5bt,HL,1ped| 		|			| spyhnt2a, spyhunt2
+Stakes Winner 2								|				|		|		|			|
+Star Wars									|				|		|		|			| starwar1, starwars
+Star Wars Arcade (1993) 					|anlg/2bt		|		|		|			|
+Star Wars Trilogy							|anlg/2bt		|		|		|			|
+Stone Ball									|				|		|		|			|
+Street Fighter Alpha						|				|		|		|			|
+Street Fighter Alpha 2						|				|		|		|			|
+Street Fighter Alpha 3						|				|		|		|			|
+Street Fighter EX Plus						|				|		|		|			|
+Street Fighter EX 2 Plus					|				|		|		|			|
+Street Fighter II Turbo Hyper Fighting		|				|		|		|			|
+Street Fighter III 3rd Strike				|				|		|		|			|
+Street Fighter II: Champion Edition			|				|		|		|			|
+Street Fighter III 3rd Strike				|				|		|		|			|
+Street Fighter Iv							|				|		|		|			|
+Street Fighter The Movie					|				|		|		|			|
+Street Fighter Zero 2 Alpha					|				|		|		|			|
+Street Fighter Zero 3 Upper					|				|		|		|			|
+Street Fighter Zero 3 Upper					|				|		|		|			|
+Strider										|				|	y	| 0.78	|			| strider, stridrua
+Strider	2									|				|		|		|			| strider2, stridr2a
+Strikers 1945 II							|				|		|		|			|
+Strikers 1945 III							|				|		|		|			|
+Sunset Riders								|				|	y	| 0.78	|			| ssrdrebd, ssriders
+Super Bagman								|4wy,2bt		|		|		|			|
+Super Bubble Bobble					(2p)	|4wy,2bt		|		|		|			|
+Super BurgerTime					(2p)	|4wy,2bt		|	y	| 0.78	|			| supbtimj, supbtime
+Super Cobra									|				|		|		|			|
+Super Contra								|				|	y	| 0.78	|			| scontra, scontraj
+Super Dodge Ball							|				|	y	| 0.78	|			| spdodgeb, sdodgeb
+Super Gem Fighter Mini Mix					|				|		|		|			|
+Super Hang On								|				|		|		|			| shangon
+Super High Impact							|				|		|		|			|
+Super Pac-Man								|				|	y	| 0.78	|			| superpac, superpcm
+Super Pang									|				|		|		|			|
+Super Punch Out!!							|				|	y	| 0.78	|			| spnchout, spnchotj
+Super Puzzle Fighter II	Turbo				|				|	y	| 0.78	|			| spf2t
+Super Sidekicks 3							|				|		|		|			|
+Super Space Invaders '91					|				|		|		|			|
+Super Spacefortress Macross					|				|		|		|			|
+Super Spacefortress Macross II				|				|		|		|			|
+Super Sprint						(3p)	|360,1ped		|	y	| 0.78	|			| ssprint1, ssprint3, ssprint
+Super Street Fighter II Turbo				|				|	y	| 0.78	|			| ssf2
+Super Street Fighter II X Grand Master Chal	|				|		|		|			|
+Super Zaxxon								|				|		|		|			|
+Superman									|				|		|		|			|
+Surprise Attack								|				|		|		|			|
+Swimmer										|				|		|		|			|
+Taisen Tokkae-Dama							|				|		|		|			|
+Taito Cup Finals							|				|		|		|			|
+Tapper										|				|	y	| 0.78	|lr-mame2010| tapper, rbtapper
+Techmo World Cup '90						|				|		|		|			|
+Tecmo Bowl (Not Playchoice 10 Version)		|				|		|		|			|
+Teenage Mutant Ninja Turtles				|				|	y	| 0.78	|			| tmnt, tmht2p, tmht
+Teenage Mutant Ninja Turtles - T in Time	|				|	y	| 0.78	|			| tmnt2
+Tehkan World Cup							|				|		|		|			|
+Tekken 3									|				|		|		|			|
+Tekken Tag Tournament						|				|		|		|			|
+Tempest										|optsp,2bt		|	y	| 0.78	|			| tempest, tempest1, tempest2
+Tengai										|				|		|		|			|
+Tenkomori Shooting							|				|		|		|			|
+Terra Cresta								|				|		|		|			|
+Terra Force									|				|		|		|			|
+Tetris										|				|	y	| 0.78	|			| atetris, atetrisa
+Tetris Plus									|				|		| 		|			| 
+Tetris Plus	2								|				|	y	| 0.78	|			| teplus2j, tetrisp2
+Tetris The Absolute Grand Master			|				|		|		|			|
+The Astyanax								|				|		|		|			| astyanax
+The Empire Strikes Back						|				|		|		|			| esb
+The Game Paradise: Master Of Shooting		|				|		|		|			|
+The Grid					(6p networked)	|trk,anlg/2bt,num		|		|			|
+The King Of Fighters Neowave				|				|		|		|			|
+The King Of Fighters XI						|				|		|		|			|	
+The New Zealand Story						|				|	y	| 0.78	|			| tnzs, tnzsb
+The New Zealand Story 2						|				|	y	| 0.78	|			| tnzs2
+The Punisher								|				|	y	| 0.78	|			| punishru, punishrj, punisher
+The Real Ghostbusters						|				|	y	| 0.78	|			| ghostb, ghostb3
+The Rumble Fish 2							|				|		|		|			|
+The Simpsons								|				|	y	| 0.78	|			| simps2pj, simpsn2p, simpsons
+The Three Stooges In Brides Is Brides		|				|	y	| 0.78	|			| 3stooges
+Thunder Cross								|				|		|		|			|
+Thunder Cross II							|				|		|		|			|
+Thunder Heroes   							|				|		|		|			|
+Thunder Zone								|				|		|		|			|
+Tiger Heli									|				|	y	| 0.78	|			| tigerhj, tigerh
+Timber 								(2p) 	|4wy,2lr		|		|		|			|
+Time Killers								|				|	y	| 0.78	|			| timek131, timekill
+Time Pilot									|				|	y	| 0.78	|			| timeplt, timepltc, tp84, tp84a
+Time Soldiers						(2p)	|8wy rot,2bt	|		|		|			|
+Toki										|				|	y	| 0.78	|			| tokiu, toki, tokia
+Toobin'										|				|	y	| 0.78	|			| toobin, toobin2
+Total Carnage								|				|	y	| 0.78	|			| totcarn
+Tournament Arkanoid							|optsp,1bt		|   	| 		| 			|
+Toy Fighter									|				|		|		|			|
+Track & Field								|				|	y	| 0.78	|			| trackfld
+Trigger Heart Exelica						|				|		|		|			|
+Trizeal										|				|		|		|			|
+Trojan										|				|	y	| 0.78	|			| trojanr, trojan
+Tron										|				|	y	| 0.78	|			| tron, tron2
+Trouble Witches Ac							|				|		|		|			|
+Truxton										|				|		|		|			|
+Truxton II									|				|		|		|			|
+Tutankham									|				|		|		|			|
+Twin Bee Yahhoo!							|				|		|		|			|
+Twin Cobra									|				|		|		|			|
+Twin Cobra II								|				|		|		|			|						
+Twin Eagle									|				|		|		|			|
+Twin Eagle II: The Rescue Mission			|				|		|		|			|
+Twin Eagle: Revenge Joe's Brother			|				|		|		|			|
+Twin Hawk									|				|		|		|			|
+Twinkle Star Sprites						|				|		|		|			|
+U.N. Squadron								|				|		|		|			|
+Ultimate Mortal Kombat 3					|				|		|		|			|
+Ultimate Tennis								|				|		|		|			|
+Ultra X Weapons								|				|		|		|			|
+Under Defeat								|				|		|		|			|
+Undercover Cops   							|				|		|		|			|
+Uo Poko										|				|		|		|			|
+Us Championship V'ball						|				|		|		|			|
+VS Super Mario Bros.						|				|	y	| 0.78	|			| suprmrio
+Vamfx1/2   									|				|		|		|			|
+Vampire Savior								|				|		|		|			|
+Vampire Savior 2							|				|		|		|			|
+Vanguard									|				|		|		|			|
+Vasara										|				|		|		|			|
+Vasara 2									|				|		|		|			|
+Vendetta									|				|	y	| 0.78	|			| vendet2p, vendetta
+Venture										|				|		|		|			|
+Victory Road (Ikari Warriors 2)		(2p)	|8wy rot,2bt	|		|		|			|
+Vigilante									|				|	y	| 0.78	|			| vigilntj, vigilntu, vigilant
+Violent Storm								|				|	y	| 0.78	|			| viostorm, viostrmj
+Viper Phase 1								|				|		|		|			|
+Virtua Fighter								|				|		|		|			| 
+Virtua Fighter 2							|				|		|		|			|
+Virtua Fighter 3							|				|		|		|			|
+Virtua Fighter 4 Evolution					|				|		|		|			|
+Virtua Tennis								|				|		|		|			|
+Vulgus										|				|		|		|			|
+WWF Super Stars								|				|		|		|			|
+WWF Wrestlefest								|				|		|		|			|
+WWF Wrestlemania							|				|		|		|			|
+Waku Waku 7									|				|		|		|			|
+Warrior Blade - Rastan Saga Episode III		|				|		|		|			|   
+Warriors Of Fate   							|				|		|		|			|
+Water Balls									|				|		|		|			|
+Water Ski									|				|		|		|			|
+Wayne Gretzky's 3d Hockey					|				|		|		|			|
+Wild West C.O.W Boys of Moo Mesa			|				|	y	| 0.78	|			| moo, mooua
+Willow										|				|	y	| 0.78	|			| willow, willowje, willowj
+Windjammers									|				|	y	| 0.78	|			| wjammers
+Winning Spike								|				|		|		|			|
+Wizard Fire   								|				|		|		|			|
+Wizard Of Wor								|				|		|		|			|
+Wonder Planet								|				|		|		|			|
+Wonderboy									|				|		|		|			|
+World Heroes Perfect						|				|		|		|			|
+World Rally									|				|		|		|			|
+X Multiply									|				|	y	| 0.78	|			| xmultipl
+X-Men										|				|	y	| 0.78	|			| xmen2pj, xmen, xmen6p, xmen2p
+X-Men Vs Street Fighter						|				|		|		|			|
+X-Men: Children Of The Atom					|				|		|		|			|
+Xain'd Sleena								|				|		|		|			|
+Xenophobe									|				|	y	| 0.78	|			| xenophob
+Xevious										|				|	y	| 0.78	|			| xevious, xeviousa, xeviousb, 
+Xevious 3d									|				|		|		|			|
+Xexex										|				|		|		|			|
+Xybots								(2p)	|8wy rot,2bt	|		|		|			|
+Zaxxon (Sample Files Required For Sounds)	|				|		|		|			|
+Zero Gunner									|				|		|		|			|
+Zero Gunner 2								|				|		|		|			|
+Zero Wing									|				|		|		|			|
+Zombie Revenge 								|				|		|		|			|
+Zookeeper									|				|		|		|			|
+Zwackery									|8wy/2bt,optppsp|	y	| 0.78	|			| zwackery
+
+-------
+Keepers
+-------
+
+------------------------
+Arcade Game Suggestions
+------------------------
+(Complete) http://forum.arcadecontrols.com/index.php/topic,149708.0.html
+	http://forum.arcadecontrols.com/index.php/topic,119925.msg1271123.html#msg1271123
+	
+------------------------
+Driving Game Info
+------------------------
+	http://forum.arcadecontrols.com/index.php/topic,105961.0.html
+
+------------------------
+Search
+------------------------
+	https://www.arcade-museum.com/search/
+
+------------------------
+Rotary game instructions
+------------------------
+From The Byoac Wiki 
+Http://Newwiki.Arcadecontrols.Com/Index.Php?Title=Joysticks#Mame_Settings_For_Mechanical_Rotary_Joysticks
+
+Quote
+Mame Settings For Mechanical Rotary Joysticks
+
+ For Mechanical Rotary Games:
+
+ "Input (This Game)" Menu
+
+     Positional Analog To None 
+
+ "Analog Controls" Menu
+
+     Positional Digital Speed = 0 
+     Positional Sensitivity = 100 
+
+ For Optical Rotary Games:
+
+ "Input (This Game)" Menu
+
+     Dial Analog To None 
+
+ "Analog Controls" Menu
+
+     Dial Digital Speed = Double The Default Value 
+     Dial Sensitivity = Default Value 
+
+------------------------------------------------------------------------------------------------------------
+Mounting Network Share - Neat, but not great. Slow startup. Recommend just transfer roms to Pi over network.
+------------------------------------------------------------------------------------------------------------
+Windows Config - Tomek answer most important
+	https://serverfault.com/questions/51635/how-can-an-unauthenticated-user-access-a-windows-share?newreg=c57761b97f91431486a4419c700818d5
+
+Pi Config
+	https://github.com/retropie/retropie-setup/wiki/Running-ROMs-from-a-Network-Share
+	
+	For autostart without user/pass
+		sudo mount -t cifs //REMOTEHOST/path/to/roms /home/pi/RetroPie/roms

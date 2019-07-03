@@ -1,0 +1,24 @@
+L x W x H
+
+I-PAC Ultimate IO
+5" x 2 3/4" x 1/2"
+
+I-PAC 2
+104mm x 49mm x 17mm
+4.09" x 1.92" x 0.66"
+
+I-PAC 4
+149mm x 59mm x 17mm
+5.86" x 2.32" x 0.66"
+
+Retro Pi 4
+3 1/4" x 2 1/2" x 1 1/4"
+
+Standard PCB Thickness
+0.063"
+
+Belkin Surge Protector
+11.4" x 4" x 1.1"
+
+Anker 4-Port USB 3.0 - https://www.amazon.com/Anker-Ultra-Slim-Portable-Adapter-Notebook/dp/B0192LPK5M/ref=sr_1_1?keywords=anker+powered+usb+data+hub+3.0+with+ac+adapter&m=A294P4X9EWVXLJ&qid=1557791834&refinements=p_6%3AA294P4X9EWVXLJ&rnid=303116011&s=electronics&sr=1-1
+4.2" x 1.2" x 0.4"

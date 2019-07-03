@@ -1,0 +1,531 @@
+Starter (Proof of concept)
+	Raspberry Pi 3b+ (or newer)
+		& 2.5v power supply
+		& 32 GB MicroSD card
+			Each can be purchased separately OR buy all at once with
+				Store - https://www.amazon.com/CanaKit-Raspberry-Starter-Premium-Black/dp/B07BCC8PK7/ref=sr_1_5?crid=1XERK97ADHQBJ&keywords=canakit+raspberry+pi+3+b%2B&qid=1549990325&s=gateway&sprefix=canakit%2Caps%2C157&sr=8-5
+		-- $80
+	
+	Raspberry Pi Heatsink & Fan combo (Instead of the heatsinks provided with the CanaKit)
+		Store - https://www.amazon.com/iUniker-Raspberry-Dual-Fan-Heatsink/dp/B07D5WWNH6/ref=sr_1_3?keywords=raspberry+pi+3+b%2B+dual+fan&qid=1549990535&s=gateway&sr=8-3
+		-- $13
+		
+	Ultimarc Magstik-Plus (4-way & 8-way capable)
+		Description - http://www.ultimarc.com/controls.html
+		Store - http://www.ultimarc.com/store/product.php?xProd=14
+		-- $37 each
+	
+	Ultimarc Goldleaf buttons (play buttons / no click for fast input) !!! 7 if want to support certain Neo-Geo games, 6 is sufficient otherwise !!!
+		Description - http://www.ultimarc.com/goldleaf.html
+		Store - http://www.ultimarc.com/store/product.php?xProd=171
+		-- $2.50 each
+		
+	Ultimarc Ultralux Chrome Illuminated LED button (coin insert)
+		Description - http://www.ultimarc.com/ultralux.html
+		Store - http://www.ultimarc.com/store/product.php?xProd=112
+		-- $4
+	
+	Ultimarc Player 1/2/3/4 buttons
+		Store (white) - http://www.ultimarc.com/store/product.php?xProd=23
+		-- $3 each
+			OR	
+		Store (black) - http://www.ultimarc.com/store/product.php?xProd=170
+		-- $4 each
+
+	&&&& 1 Extra Button of your choice to act as "Mod" button - Used to exit games, access game config, etc &&&
+		-- ~$3
+	
+	!!!! Below are options depending on what type of setup you need/want !!!!
+		?? 2 Player ??
+			Ultimarc I-PAC 2
+				Description - http://www.ultimarc.com/ipac1.html
+				Store - http://www.ultimarc.com/store/section.php?xSec=2
+			-- $39
+		
+			Crimp Connectors x 2 (select 2.8mm for Goldleaf Buttons AND 6.3mm for Ultralux LEDs)
+				Store - http://www.ultimarc.com/store/product.php?xProd=110&jssCart=7454f45f4d7c2e9cfc21c72077ea63d5
+			-- $9 each
+			AND
+			Wiring Kit (select 4.8mm connectors)
+				Store - http://www.ultimarc.com/store/section.php?xSec=2&xPage=1
+			-- $29
+				
+		?? 4 Player - No LEDs ??
+			Ultimarc I-PAC 4
+				Description - http://www.ultimarc.com/ipac1.html
+				Store - http://www.ultimarc.com/store/section.php?xSec=2
+			-- $65
+		
+			Crimp Connectors x 2 (select 2.8mm for Goldleaf Buttons AND 6.3mm for Ultralux LEDs)
+				Store - http://www.ultimarc.com/store/product.php?xProd=110&jssCart=7454f45f4d7c2e9cfc21c72077ea63d5
+			-- $9 each
+			AND
+			Wiring Kit (select 4.8mm connectors)
+				Store - http://www.ultimarc.com/store/section.php?xSec=2&xPage=1
+			-- $29
+				
+		?? 4 Player - With LEDs (This is what I went with) ??
+			Ultimarc I-PAC Ultimate I/O Interface
+				Description - http://www.ultimarc.com/ipacuio.html
+				Store (select 4.8mm and 2.8mm switch connectors) - http://www.ultimarc.com/store/product.php?xProd=205
+			-- $99
+			
+			Daisy-Chain Harness
+				Store (select 6.3mm for LED wiring <NOTE: I-PAC Ultimate comes with switch connector wiring>) - http://www.ultimarc.com/store/product.php?xProd=97
+			-- $14
+			
+			Ultimarc Player 3-4 connection for IPAC Ultimate IO Interface (!!!!!CHUCK STILL NEEDS THIS!!!!!!)
+				Store - http://www.ultimarc.com/store/section.php?xSec=2&xPage=1
+			-- $19
+
+Full Cabinet
+	Extension Harness Pack (4.8mm or 6.3mm connectors)
+		http://www.ultimarc.com/store/product.php?xProd=31
+		-- $13
+		
+	PCB Mounting Feet
+		http://www.ultimarc.com/store/section.php?xSec=2&xPage=1
+		-- $4
+		
+	Marquee Illumination Kit
+		http://www.ultimarc.com/store/section.php?xSec=9
+			(JAMMA power)
+			-- $16
+		
+		https://www.amazon.com/HitLights-Pre-Cut-Flexible-Changing-Connectors/dp/B07NWFVRY4/ref=zg_bs_17534489011_26?_encoding=UTF8&psc=1&refRID=KH17VRV309H283QQ1X4X
+			(DC power)
+			-- $17
+		
+	Cabinet Material
+		https://www.cherokeewood.com/store/mdf/
+	
+	Amplifier
+		https://www.amazon.com/Kinter-K2020A-ORIGINAL-TA2020-020-Amplifier/dp/B077Z7DBRT/ref=sr_1_2?fst=as%3Aoff&qid=1558571563&refinements=p_72%3A1248879011%2Cp_36%3A100-5000&rnid=1267491011&s=electronics&sr=1-2
+		-- ~$40
+
+	Speakers
+		https://www.arcaderenovations.com/arcade-game-audio-kit.html
+		
+	AmazonBasics 3.5mm to 2-Male RCA Adapter Audio Stereo Cable - 15 Feet
+		https://www.amazon.com/AmazonBasics-3-5mm-2-Male-Adapter-Cable/dp/B01D5H8LDM/ref=sr_1_1?fst=as%3Aoff&qid=1558492166&refinements=p_n_feature_keywords_four_browse-bin%3A7800972011&rnid=7623517011&s=electronics&sr=1-1
+		-- ~$10
+		
+	Magnets
+		https://www.amazon.com/dp/B071ZKQ2X5/?coliid=I1137B6FRTQGSK&colid=2LEFZ6GWU5H23&psc=0&ref_=lv_ov_lig_dp_it
+		
+	Washers? (magnetically attractive material for side panels)
+	
+	Monitor
+		ViewSonic 27' LED
+			https://www.amazon.com/ViewSonic-VA2759-SMH-1080p-Frameless-Monitor/dp/B01F6UTURM/ref=sr_1_3?crid=2NJNDTPH4ELH2&keywords=27+inch+monitor+hdmi+vesa&qid=1558313087&s=gateway&sprefix=27%2Caps%2C167&sr=8-3
+		-- $163
+
+	Monitor Mount
+		VideoSecu Tilt Rotation TV Monitor Wall Mount Bracket
+			https://www.amazon.com/dp/B00K1V1ESU/ref=psdc_760796_t3_B001RECLKU
+		-- $13
+		
+		Mount-It! Height Adjustable TV Wall Mount Bracket With Counterbalance – Full Motion Articulating With Gas Spring Arm – Silver
+			https://www.amazon.com/Mount-Height-Adjustable-Bracket-Counterbalance/dp/B00B7AMLMC/ref=asc_df_B00B7AMLMC/?tag=hyprod-20&linkCode=df0&hvadid=198063088238&hvpos=1o20&hvnetw=g&hvrand=14279875265866689865&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9016721&hvtargid=pla-325415070630&psc=1
+		-- $75
+		
+	Felt Strips (protection for parts of the control deck that slide against the cabinet)
+		Everbuilt 1/2 in. x 58 in. Heavy-Duty Self-Adhesive Felt Strip
+			https://www.homedepot.com/p/Everbilt-1-2-in-x-58-in-Heavy-Duty-Self-Adhesive-Felt-Strip-49818/203661095
+		-- ~$4
+
+	T Molding
+		Home - https://www.t-molding.com/index.html
+		Other Tools - https://www.t-molding.com/installation-tools.html
+		Slot Cutter - https://www.t-molding.com/whiteside-slot-cutter-6703a.html
+			-- ~$20
+		
+		
+	PC Power Supply (To supply power for LEDs)
+		???
+	
+	Push-to-Open Drawer rails (long and hefty enough to support a reasonably large PC)
+		20" - https://www.amazon.com/dp/B07CXQG6M9/ref=psdc_511238_t1_B00DUB61PO?th=1
+	
+	Coin Slot face
+		2 PLAYER NEW FULL SIZE COIN DOOR
+			https://www.ebay.com/i/360558344432?chn=ps
+			
+		SMALL DOOR AND DIE CAST METAL FRAME ASSEMBLY FOR HOME ARCADE CABINET, 2 ENTRY
+			https://na.suzohapp.com/products/coin_doors/40-0713-00
+		
+	Marquee "Card" - Translucent material for displaying marquee graphic
+		???
+	
+	Fasteners for cabinet (Screws/Bolts/???)
+		??? https://www.mikesarcade.com/cgi-bin/store.pl?action=search&category=Game+Parts&subcategory=Nuts+and+Bolts
+		Joystick "Blind Hole" Mounting kits - http://www.ultimarc.com/controls.html
+			-- $9 (per joystick)
+			
+	USB Hub (Pi has 4 USB ports) 
+		Pi powered compatible hubs - https://elinux.org/RPi_Powered_USB_Hubs
+			Try this one (Need 3 total)
+				https://www.amazon.com/Anker-Ultra-Slim-Portable-Adapter-Notebook/dp/B0192LPK5M/ref=sr_1_1?keywords=anker+powered+usb+data+hub+3.0+with+ac+adapter&m=A294P4X9EWVXLJ&qid=1557791834&refinements=p_6%3AA294P4X9EWVXLJ&rnid=303116011&s=electronics&sr=1-1
+	
+	Mountable Female to Male USB 3 cables (x 2 - 3) - Control Deck to Hub/Pi & Foot Pedal(s) to Hub/Pie
+		https://www.amazon.com/BATIGE-Waterproof-Extension-Motorcycle-Dashboard/dp/B01NCA9XEI/ref=pd_lpo_vtph_147_lp_img_3?_encoding=UTF8&psc=1&refRID=2PSF0VT15XRKMJECBW2W
+		https://www.amazon.com/Ports-Female-Extension-Motorcycle-Dashboard/dp/B01MY1WDIU/ref=pd_lpo_vtph_147_bs_img_1?_encoding=UTF8&psc=1&refRID=2PSF0VT15XRKMJECBW2W
+	
+	Cable Management
+		Rustark 50Pcs 2 Sizes Adjustable Self-Adhesive Nylon Cable Straps Cable Ties Cord Clamp for wire management, Large and Small
+			https://www.amazon.com/Rustark-Adjustable-Self-Adhesive-Straps-management/dp/B071RGCJLT/ref=pd_day0_hl_60_2/145-0258470-6925648?_encoding=UTF8&pd_rd_i=B071RGCJLT&pd_rd_r=c9206e23-7c34-11e9-bee9-f381f43bc426&pd_rd_w=qjiyE&pd_rd_wg=Y7dMu&pf_rd_p=ad07871c-e646-4161-82c7-5ed0d4c85b07&pf_rd_r=G8ZRGT118ZJTK8429VGW&psc=1&refRID=G8ZRGT118ZJTK8429VGW
+		-- ~$11
+		
+	Bluetooth Keyboard
+		???
+	
+	Mountable CAT 6 extension cable - Connect Pi to "outside"
+		https://www.amazon.com/CableCreation-Ethernet-Extension-Internet-Network/dp/B073FGMF4N/ref=sr_1_3?keywords=cat6+cable+extension+mount&qid=1550175828&s=gateway&sr=8-3
+	-- $7
+	
+	Power Strip (with long cable if possible) - to power PC Supply & Pi
+		https://www.amazon.com/Belkin-12-Outlet-Pivot-Plug-Protector-BP112230-08/dp/B000JE9LD4?ref_=Oct_BSellerC_761520_3&pf_rd_p=1cf402ec-bbf4-5989-987f-c5a33c9812f5&pf_rd_s=merchandised-search-6&pf_rd_t=101&pf_rd_i=761520&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=FHJFNRFT5VMRNPED2HZR&pf_rd_r=FHJFNRFT5VMRNPED2HZR&pf_rd_p=1cf402ec-bbf4-5989-987f-c5a33c9812f5
+	
+	External Power Switch
+		???????????????
+	
+	Marquee Graphic
+		???
+		
+	Side Panel Graphics
+		???
+	
+	18 gauge wire (ground or long wires)
+		???
+		
+	20 gauge wire (controls)
+		???
+	
+	Control Panel Clamps
+		https://groovygamegear.com/webstore/index.php?main_page=product_info&cPath=70&products_id=204
+	-- $7 per set of 2
+	
+	PCB Standoffs
+		https://groovygamegear.com/webstore/index.php?main_page=product_info&cPath=70&products_id=367
+	-- $2 per set of 4
+	
+	6" Plastic clamps
+		https://www.amazon.com/Large-Plastic-Spring-Clamps-Muslin/dp/B00LD5ALTQ/ref=sr_1_15?keywords=hinged+prop+rod&qid=1560904624&s=gateway&sr=8-15
+	-- ~$10
+	
+	17" Hood Prop
+		https://www.amazon.com/Crown-Automotive-55017480-Hood-Prop/dp/B000FQ1W9C/ref=sr_1_59?keywords=prop+rod&qid=1560905340&s=gateway&sr=8-59
+	-- ~$15
+	
+	Hood Prop Clip
+		https://www.amazon.com/Mopar-55075480AC-Jeep-Wrangler-Hood/dp/B07BM6Y811/ref=sr_1_6?keywords=hood+prop+clip&qid=1560905825&s=automotive&sr=1-6
+	-- ~$6
+	
+	1.5" x 12" Piano Hinge
+		https://www.amazon.com/National-Hardware-N266-932-Continuous-Stainless/dp/B000CSK4SI?ref_=Oct_RAsinC_Ajax_511286_0&pf_rd_r=WNHGSA9STPW2BE3BXVDV&pf_rd_p=2976b3ab-2585-577a-af66-95197d23f344&pf_rd_s=merchandised-search-6&pf_rd_t=101&pf_rd_i=511286&pf_rd_m=ATVPDKIKX0DER
+	-- ~$15
+	
+-----------------	
+	Control Decks
+-----------------
+	
+		"Standard 2 Player Control Deck - Includes Trackball" (LEDs?)
+		-------------------------------------------------------------
+			Ultimarc I-PAC 2
+				Description - http://www.ultimarc.com/ipac1.html
+				Store - http://www.ultimarc.com/store/section.php?xSec=2
+			-- $39
+		
+			Crimp Connectors x 2 (select 2.8mm for Goldleaf Buttons AND 6.3mm for Ultralux LEDs)
+				Store - http://www.ultimarc.com/store/product.php?xProd=110&jssCart=7454f45f4d7c2e9cfc21c72077ea63d5
+			-- $9 each
+			AND
+			Wiring Kit (select 4.8mm connectors)
+				Store - http://www.ultimarc.com/store/section.php?xSec=2&xPage=1
+			-- $29
+
+			Ultimarc Magstik-Plus (4-way & 8-way capable)
+				Description - http://www.ultimarc.com/controls.html
+				Store - http://www.ultimarc.com/store/product.php?xProd=14
+			-- $74 (for 2 players)
+
+			Ultimarc Goldleaf buttons (play buttons / no click for fast input)
+				Description - http://www.ultimarc.com/goldleaf.html
+				Store - http://www.ultimarc.com/store/product.php?xProd=171
+			-- $35 (for 2 players)
+				
+			Ultimarc Ultralux Chrome Illuminated LED button (coin insert)
+				Description - http://www.ultimarc.com/ultralux.html
+				Store - http://www.ultimarc.com/store/product.php?xProd=112
+			-- $8 (for 2 players)
+			
+			Ultimarc Player 1/2 buttons
+				Store (white) - http://www.ultimarc.com/store/product.php?xProd=23
+			-- $6 (for 2 players)
+					OR	
+				Store (black) - http://www.ultimarc.com/store/product.php?xProd=170
+			-- $8 (for 2 players)
+			
+			&&&& 1 Extra Button of your choice to act as "Mod" button - Used to exit games, access game config, etc &&&
+			-- ~$3
+			
+			Trackball (Crystal Castles / Marble Madness)
+				http://www.ultimarc.com/store/product.php?xProd=126
+			-- $93
+			
+				Trackball Trim Bezel
+					http://www.ultimarc.com/store/section.php?xSec=10&xPage=1
+			-- $5
+
+			Control Deck Material
+				???
+			-- $?
+			
+			Control Deck Fasteners
+				???
+			-- $?
+			
+			Control Deck Graphics
+				???
+			-- $?
+			
+		"Standard 2 Player Control Deck - Includes Trackball" TOTAL:
+		------------------
+			$281 + $?
+		------------------
+	
+	----------------------------------------------------------------------------------------------------------------------------------
+		
+		"4 Player Control Deck"  (LEDs?)
+		--------------------------------
+			Ultimarc I-PAC Ultimate I/O Interface  (!!!!!CHUCK ALREADY HAS THIS!!!!!!)
+				Description - http://www.ultimarc.com/ipacuio.html
+				Store (select 4.8mm and 2.8mm switch connectors) - http://www.ultimarc.com/store/product.php?xProd=205
+			-- $99
+			
+			Daisy-Chain Harness  (!!!!!CHUCK MAY NOT NEED THIS!!!!!!)
+				Store (select 6.3mm for LED wiring <NOTE: I-PAC Ultimate comes with switch connector wiring>) - http://www.ultimarc.com/store/product.php?xProd=97
+			-- $14
+			
+			Ultimarc Player 3-4 connection for IPAC Ultimate IO Interface (!!!!!CHUCK STILL NEEDS THIS!!!!!!)
+				Store - http://www.ultimarc.com/store/section.php?xSec=2&xPage=1
+			-- $19
+
+			Ultimarc Magstik-Plus (4-way & 8-way capable)
+				Description - http://www.ultimarc.com/controls.html
+				Store - http://www.ultimarc.com/store/product.php?xProd=14
+			-- $148 (for 4 players)
+
+			Ultimarc Goldleaf buttons (play buttons / no click for fast input)
+				Description - http://www.ultimarc.com/goldleaf.html
+				Store - http://www.ultimarc.com/store/product.php?xProd=171
+			-- $70 (for 4 players)
+				
+			Ultimarc Ultralux Chrome Illuminated LED button (coin insert)
+				Description - http://www.ultimarc.com/ultralux.html
+				Store - http://www.ultimarc.com/store/product.php?xProd=112
+			-- $16 (for 4 players)
+			
+			Ultimarc Player 1/2/3/4 buttons
+				Store (white) - http://www.ultimarc.com/store/product.php?xProd=23
+			-- $12 (for 4 players)
+					OR	
+				Store (black) - http://www.ultimarc.com/store/product.php?xProd=170
+			-- $16 (for 4 players)
+			
+			&&&& 1 Extra Button of your choice to act as "Mod" button - Used to exit games, access game config, etc &&&
+			-- ~$3
+			
+			Control Deck Material
+				???
+			-- $?
+			
+			Control Deck Fasteners
+				???
+			-- $?
+			
+			Control Deck Graphics
+				???
+			-- $?
+						
+		"4 Player Control Deck" TOTAL: 
+		------------------
+			$385 + $?
+		------------------
+	----------------------------------------------------------------------------------------------------------------------------------
+		
+		"Zwackery / Discs of Tron / Arkanoid Control Deck" (1 Player Only?)  (LEDs?)
+		----------------------------------------------------------------------------
+			Ultimarc I-PAC 2
+				Description - http://www.ultimarc.com/ipac1.html
+				Store - http://www.ultimarc.com/store/section.php?xSec=2
+			-- $39
+		
+			Crimp Connectors x 2 (select 2.8mm for Goldleaf Buttons AND 6.3mm for Ultralux LEDs)
+				Store - http://www.ultimarc.com/store/product.php?xProd=110&jssCart=7454f45f4d7c2e9cfc21c72077ea63d5
+			-- $9 each
+			AND
+			Wiring Kit (select 4.8mm connectors)
+				Store - http://www.ultimarc.com/store/section.php?xSec=2&xPage=1
+			-- $29
+
+			Joystick
+				??Flightstick Version?? - http://www.ultimarc.com/ultrastik_info.html
+			-- ??$79??
+				
+			Knob
+				http://groovygamegear.com/webstore/index.php?main_page=product_info&cPath=86&products_id=311
+			-- $140
+			
+			Ultimarc Ultralux Chrome Illuminated LED button (coin insert)
+				Description - http://www.ultimarc.com/ultralux.html
+				Store - http://www.ultimarc.com/store/product.php?xProd=112
+			-- $4
+			
+			Ultimarc Player 1? button
+				Store (white) - http://www.ultimarc.com/store/product.php?xProd=23
+			-- $3
+					OR	
+				Store (black) - http://www.ultimarc.com/store/product.php?xProd=170
+			-- $4
+
+			&&&& 1 Extra Button of your choice to act as "Mod" button - Used to exit games, access game config, etc &&&
+			-- ~$3
+
+			2 Port USB Hub
+				???
+			-- $?
+			
+			Control Deck Material
+				???
+			-- $?
+			
+			Control Deck Fasteners
+				???
+			-- $?
+			
+			Control Deck Graphics
+				???
+			-- $?
+			
+		"Zwackery / Discs of Tron Control Deck" TOTAL: 
+		------------------
+			$?
+		------------------
+	----------------------------------------------------------------------------------------------------------------------------------
+	
+		"1 Player Driving Control Deck"  (LEDs?) READ UP! - http://forum.arcadecontrols.com/index.php/topic,105961.0.html
+		----------------------------------------
+			Ultimarc I-PAC 2
+				Description - http://www.ultimarc.com/ipac1.html
+				Store - http://www.ultimarc.com/store/section.php?xSec=2
+			-- $39
+		
+			Crimp Connectors x 2 (select 2.8mm for Goldleaf Buttons AND 6.3mm for Ultralux LEDs)
+				Store - http://www.ultimarc.com/store/product.php?xProd=110&jssCart=7454f45f4d7c2e9cfc21c72077ea63d5
+			-- $9 each
+			AND
+			Wiring Kit (select 4.8mm connectors)
+				Store - http://www.ultimarc.com/store/section.php?xSec=2&xPage=1
+			-- $29
+		
+			Ultimarc Ultralux Chrome Illuminated LED button (coin insert)
+				Description - http://www.ultimarc.com/ultralux.html
+				Store - http://www.ultimarc.com/store/product.php?xProd=112
+			-- $4
+			
+			Ultimarc Player 1 button
+				Store (white) - http://www.ultimarc.com/store/product.php?xProd=23
+			-- $3
+					OR	
+				Store (black) - http://www.ultimarc.com/store/product.php?xProd=170
+			-- $4
+
+			&&&& 1 Extra Button of your choice to act as "Mod" button - Used to exit games, access game config, etc &&&
+			-- ~$3
+
+			Steering Wheel (Optical aka 360deg) !!!DEPENDS ON THE GAMES YOU WANT TO PLAY!!!
+				http://www.ultimarc.com/store/section.php?xSec=9
+			-- $195
+
+			Steering Wheel (Analog aka 270deg) !!!DEPENDS ON THE GAMES YOU WANT TO PLAY!!!
+				http://www.ultimarc.com/store/section.php?xSec=9
+			-- $195
+			
+			Gearshift (Hi/Lo) !!!DEPENDS ON THE GAMES YOU WANT TO PLAY!!!
+				http://www.ultimarc.com/store/section.php?xSec=9
+			-- $35
+
+			Gearshift (H) !!!DEPENDS ON THE GAMES YOU WANT TO PLAY!!!
+				???
+			-- $?
+			
+			Gearshift (Flippers) !!!DEPENDS ON THE GAMES YOU WANT TO PLAY!!!
+				???
+			-- $?
+			
+			Gas Pedal
+				http://www.ultimarc.com/store/section.php?xSec=9
+			-- $95
+				
+			Brake Pedal
+				???
+			-- $?
+			
+			4 Ancillary Buttons
+			-- ~$12
+
+			3 Port USB Hub
+				???
+			-- $?
+
+			Control Deck Material
+				???
+			-- $?
+			
+			Control Deck Fasteners
+				???
+			-- $?
+			
+			Control Deck Graphics
+				???
+			-- $?
+			
+		"1 Player Driving Control Deck" TOTAL: 
+		------------------
+			$?
+		------------------
+		
+	----------------------------------------------------------------------------------------------------------------------------------
+	
+		"2 Player Gun Control Deck" (LED?) - http://www.ultimarc.com/store/section.php?xSec=7
+		----------------------------------
+			Gun x 2
+				???
+			-- $?
+			
+			Infrared sensor
+				???
+			-- $?
+			
+			3? Port USB Hub
+				???
+			-- $?
+
+			Control Deck Material
+				???
+			-- $?
+
+			Control Deck Fasteners
+				???
+			-- $?
+
+			Control Deck Graphics
+				???
+			-- $?
+
+		"2 Player Gun Control Deck" TOTAL: 
+		------------------
+			$?
+		------------------
+	----------------------------------------------------------------------------------------------------------------------------------
